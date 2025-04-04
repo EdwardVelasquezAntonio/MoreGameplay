@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moregameplay:blocks/pc_block_ars",
+    "up": "moregameplay:blocks/pc_block_ars",
+    "north": "moregameplay:blocks/pc_block_front",
+    "east": "moregameplay:blocks/pc_block_lado",
+    "south": "moregameplay:blocks/pc_block_lado",
+    "west": "moregameplay:blocks/pc_block_lado",
+    "particle": "moregameplay:blocks/pc_block_ars"
+  }
+}

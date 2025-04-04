@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "moregameplay:p_cblock"
+    },
+    "title": {
+      "translate": "advancements.pc_logro.title"
+    },
+    "description": {
+      "translate": "advancements.pc_logro.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pc_logro": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "moregameplay:adventable"
+}

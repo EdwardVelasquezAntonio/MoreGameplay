@@ -1,0 +1,633 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MoreGameplay",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "more_gameplay"
+    },
+    {
+      "name": "FireDiamondswordAlEntidadSerGolpeadaConLaHerramienta",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_diamondsword_al_entidad_ser_golpeada_con_la_herramienta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireDiamondsword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_diamondsword"
+    },
+    {
+      "name": "Bundlegui",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "bundlegui"
+    },
+    {
+      "name": "Bundle",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bundle"
+    },
+    {
+      "name": "Herobrineblock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrineblock"
+    },
+    {
+      "name": "Adventable",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adventable"
+    },
+    {
+      "name": "Herobrineblockreceta",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrineblockreceta"
+    },
+    {
+      "name": "Herobrine",
+      "type": "mob",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine"
+    },
+    {
+      "name": "HerobrineblockAlSerColocadoElBloque",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrineblock_al_ser_colocado_el_bloque",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BootsulimateAlTenerPuestasLasBotas",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bootsulimate_al_tener_puestas_las_botas",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bootsulimate",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bootsulimate",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      }
+    },
+    {
+      "name": "Materialdios",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "materialdios"
+    },
+    {
+      "name": "MineralDiosAlJugadorDestruirElBloque",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineral_dios_al_jugador_destruir_el_bloque",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MineralDios",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineral_dios"
+    },
+    {
+      "name": "Bootsulimatereceta",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bootsulimatereceta"
+    },
+    {
+      "name": "Bundlereceta",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bundlereceta"
+    },
+    {
+      "name": "Libroverdereceta",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "libroverdereceta"
+    },
+    {
+      "name": "Explotarconsuperimearco",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explotarconsuperimearco"
+    },
+    {
+      "name": "ArcosuperimeAlBalaGolpearUnBloque",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arcosuperime_al_bala_golpear_un_bloque",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Arcosuperime",
+      "type": "gun",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arcosuperime"
+    },
+    {
+      "name": "Coalredore",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coalsuperime"
+    },
+    {
+      "name": "Coalredblock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coalsuperime_ore"
+    },
+    {
+      "name": "Coalsuperimecombustible1",
+      "type": "fuel",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coalsuperimecombustible_1"
+    },
+    {
+      "name": "Redsexslowed",
+      "type": "musicdisc",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redsexslowed"
+    },
+    {
+      "name": "Metamorphosis",
+      "type": "musicdisc",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metamorphosis"
+    },
+    {
+      "name": "Kerosene",
+      "type": "musicdisc",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kerosene"
+    },
+    {
+      "name": "Yourlovedrug",
+      "type": "musicdisc",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yourlovedrug"
+    },
+    {
+      "name": "PCblock",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_cblock"
+    },
+    {
+      "name": "PCgui",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_cgui"
+    },
+    {
+      "name": "HDD",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hdd"
+    },
+    {
+      "name": "CPUitem",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cp_uitem"
+    },
+    {
+      "name": "GPUitem",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gp_uitem"
+    },
+    {
+      "name": "RAMitem",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ra_mitem"
+    },
+    {
+      "name": "PCLogro",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pc_logro"
+    },
+    {
+      "name": "Pclogroprocedure",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pclogroprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PCblockfix",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_cblockfix"
+    },
+    {
+      "name": "PCblockAlRecibirRedstone",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_cblock_al_recibir_redstone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PicoDiosAlSerCreado",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pico_dios_al_ser_creado",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PicoDios",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pico_dios"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "kerosene",
+      "files": [
+        "kerosene_slowed_best_part__crystal_castles"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "metamorphosis",
+      "files": [
+        "interworld_metamorphosis"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "red_sex_slowed",
+      "files": [
+        "vessel_-_red_sex_slowed"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "your_love_is_my_drug",
+      "files": [
+        "etxrnall_-_your_love_is_my_drug_8bit_slowed"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabmore_gameplay": "More Gameplay",
+      "item.moregameplay.bootsulimate_helmet": "Bootsulimate Casco",
+      "item.moregameplay.bootsulimate_chestplate": "Bootsulimate Pechera",
+      "item.moregameplay.hdd": "HDD",
+      "item.moregameplay.metamorphosis.desc": "By - Internelatec",
+      "item.moregameplay.redsexslowed.desc": "By - Vassel",
+      "subtitles.metamorphosis": "",
+      "item.moregameplay.fire_diamondsword": "Sword of Fire",
+      "item.moregameplay.arcosuperime": "Arco de Superime",
+      "advancements.adventable.descr": "Colocar el bloque de Herobrine",
+      "entity.moregameplay.herobrine": "Herobrine",
+      "item.moregameplay.kerosene": "Kerosene",
+      "block.moregameplay.p_cblockfix": "PC Block",
+      "item.moregameplay.bootsulimate_boots": "Ulimate Boots",
+      "block.moregameplay.coalsuperime_ore": "Coal Superime",
+      "item.moregameplay.metamorphosis": "Metamorphosis",
+      "subtitles.kerosene": "",
+      "advancements.pc_logro.descr": "Corregir una PC",
+      "item.moregameplay.bundle": "Bundle",
+      "block.moregameplay.p_cblock": "PC Block",
+      "item.moregameplay.herobrine_spawn_egg": "Herobrine Spawn Egg",
+      "advancements.pc_logro.title": "Mejor PC que antes",
+      "item.moregameplay.ra_mitem": "RAM",
+      "advancements.explotarconsuperimearco.title": "Arco Superime Es Epico",
+      "advancements.adventable.title": "Adventable",
+      "item.moregameplay.cp_uitem": "CPU",
+      "item.moregameplay.gp_uitem": "GPU",
+      "item.moregameplay.bootsulimate_leggings": "Bootsulimate Pantalones",
+      "item.moregameplay.yourlovedrug": "Your Love Is My Drug",
+      "item.moregameplay.yourlovedrug.desc": "NOSTAGLICO",
+      "item.moregameplay.redsexslowed": "Red Sex - Slowed",
+      "block.moregameplay.herobrineblock": "Herobrine Bloque",
+      "item.moregameplay.materialdios": "Material de Dios",
+      "block.moregameplay.mineral_dios": "Mineral de Dios",
+      "subtitles.your_love_is_my_drug": "",
+      "subtitles.red_sex_slowed": "",
+      "item.moregameplay.coalsuperime": "Coal Superime Ore",
+      "item.moregameplay.kerosene.desc": "By - Crystal Castiles",
+      "advancements.explotarconsuperimearco.descr": "Usar por primera vez el Arco Superime",
+      "item.moregameplay.pico_dios": "Pico de Dios"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "moregameplay",
+    "modName": "MoresFixes",
+    "version": "1.0.9",
+    "author": "EdwardVelasquez, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.moregameplay",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "More Gameplay",
+    "icon": {
+      "value": "Items.KNOWLEDGE_BOOK"
+    },
+    "showSearch": false
+  }
+}

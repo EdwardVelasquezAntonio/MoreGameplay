@@ -1,0 +1,163 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "PC Corrupt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "PC Corrupt",
+          "x": 180,
+          "y": 41
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:RAMitem"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 138,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "RAM",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "RAM",
+          "x": 156,
+          "y": 73
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:HDD"
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 138,
+          "y": 99
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "HDD",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "HDD",
+          "x": 156,
+          "y": 99
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Blocks.CHEST"
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 192,
+          "y": 54
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Placa Madre",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Placa Madre",
+          "x": 210,
+          "y": 54
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:GPUitem"
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 264,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "GPU",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "GPU",
+          "x": 246,
+          "y": 73
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:CPUitem"
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 264,
+          "y": 99
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "CPU",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "CPU",
+          "x": 246,
+          "y": 99
+        }
+      }
+    ]
+  }
+}

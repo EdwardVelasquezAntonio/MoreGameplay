@@ -1,0 +1,38 @@
+{
+  "kerosene": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "moregameplay:kerosene_slowed_best_part__crystal_castles",
+        "stream": true
+      }
+    ]
+  },
+  "metamorphosis": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "moregameplay:interworld_metamorphosis",
+        "stream": true
+      }
+    ]
+  },
+  "red_sex_slowed": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "moregameplay:vessel_-_red_sex_slowed",
+        "stream": true
+      }
+    ]
+  },
+  "your_love_is_my_drug": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "moregameplay:etxrnall_-_your_love_is_my_drug_8bit_slowed",
+        "stream": true
+      }
+    ]
+  }
+}

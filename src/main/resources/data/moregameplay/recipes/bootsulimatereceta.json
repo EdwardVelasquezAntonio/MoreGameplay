@@ -1,0 +1,26 @@
+{
+  "group": "moregameplay",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "moregameplay:materialdios"
+    },
+    "2": {
+      "item": "moregameplay:materialdios"
+    },
+    "3": {
+      "item": "moregameplay:materialdios"
+    },
+    "5": {
+      "item": "moregameplay:materialdios"
+    }
+  },
+  "result": {
+    "item": "moregameplay:bootsulimate_boots",
+    "count": 1
+  }
+}

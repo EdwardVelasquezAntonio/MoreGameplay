@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "moregameplay:blocks/material_dios_block",
+    "particle": "moregameplay:blocks/material_dios_block"
+  }
+}

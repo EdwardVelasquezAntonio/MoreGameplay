@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "red_sex_slowed_item",
+    "name": "Red Sex - Slowed",
+    "description": "By - Vassel",
+    "creativeTab": {
+      "value": "CUSTOM:MoreGameplay"
+    },
+    "music": {
+      "value": "CUSTOM:red_sex_slowed"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

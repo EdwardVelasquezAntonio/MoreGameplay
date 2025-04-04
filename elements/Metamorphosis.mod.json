@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "metamorphosis",
+    "name": "Metamorphosis",
+    "description": "By - Internelatec",
+    "creativeTab": {
+      "value": "CUSTOM:MoreGameplay"
+    },
+    "music": {
+      "value": "CUSTOM:metamorphosis"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

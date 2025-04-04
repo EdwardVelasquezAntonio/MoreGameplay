@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "moregameplay:materialdios"
+    },
+    "title": {
+      "translate": "advancements.explotarconsuperimearco.title"
+    },
+    "description": {
+      "translate": "advancements.explotarconsuperimearco.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "explotarconsuperimearco": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "moregameplay:adventable"
+}
