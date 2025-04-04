@@ -85,7 +85,7 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "PCgui",
+    "guiBoundTo": "PCblockfixgui",
     "openGUIOnRightClick": true,
     "inventorySize": 5,
     "inventoryStackSize": 64,

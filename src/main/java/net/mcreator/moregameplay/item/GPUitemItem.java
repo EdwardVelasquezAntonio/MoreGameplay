@@ -25,7 +25,7 @@ public class GPUitemItem extends MoregameplayModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(MoreGameplayItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(MoreGameplayItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("gp_uitem");
 		}
 

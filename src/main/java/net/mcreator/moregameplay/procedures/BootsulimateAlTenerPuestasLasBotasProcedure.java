@@ -57,7 +57,6 @@ public class BootsulimateAlTenerPuestasLasBotasProcedure extends MoregameplayMod
 					_ist.setDamage(0);
 				}
 			}
-		} else {
 			if (entity instanceof PlayerEntity) {
 				((PlayerEntity) entity).abilities.allowFlying = (false);
 				((PlayerEntity) entity).sendPlayerAbilities();

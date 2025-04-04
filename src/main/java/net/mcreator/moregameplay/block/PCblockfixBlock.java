@@ -47,7 +47,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.moregameplay.itemgroup.MoreGameplayItemGroup;
-import net.mcreator.moregameplay.gui.PCguiGui;
+import net.mcreator.moregameplay.gui.PCblockfixguiGui;
 import net.mcreator.moregameplay.MoregameplayModElements;
 
 import javax.annotation.Nullable;
@@ -112,7 +112,8 @@ public class PCblockfixBlock extends MoregameplayModElements.ModElement {
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new PCguiGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
+						return new PCblockfixguiGui.GuiContainerMod(id, inventory,
+								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
 			}
@@ -233,7 +234,7 @@ public class PCblockfixBlock extends MoregameplayModElements.ModElement {
 
 		@Override
 		public Container createMenu(int id, PlayerInventory player) {
-			return new PCguiGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
+			return new PCblockfixguiGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
 		}
 
 		@Override

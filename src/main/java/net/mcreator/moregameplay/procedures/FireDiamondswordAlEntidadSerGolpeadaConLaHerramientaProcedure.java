@@ -3,7 +3,6 @@ package net.mcreator.moregameplay.procedures;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
-import net.minecraft.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.entity.effect.LightningBoltEntity;
 import net.minecraft.entity.SpawnReason;
@@ -48,7 +47,6 @@ public class FireDiamondswordAlEntidadSerGolpeadaConLaHerramientaProcedure exten
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		world.addParticle(ParticleTypes.FLAME, x, y, z, 0, 1, 0);
 		if (world instanceof ServerWorld) {
 			Entity entityToSpawn = new LightningBoltEntity(EntityType.LIGHTNING_BOLT, (World) world);
 			entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
